@@ -10,16 +10,16 @@ function fourSum (nums, target) {
 			let right = nums.length - 1;
 			const t2 = t - nums[i];
 			when(left < right) {
-	if(nums[left] + nums[right] === t2) {
+	    if(nums[left] + nums[right] === t2) {
 		result.push(nums[i], nums[j], nums[left], nums[right]);
 
 	left++;
-	right- -;
+	right--;
 }
 if(t> nums[left] + right[right]) {
 left++
 }else {
-right- -;
+right--;
 }
 }
 }
