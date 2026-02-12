@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Sriracha";
+  src: url("fonts/Sriracha.ttf");
+}
+
+@font-face {
+  font-family: "ImperialScript";
+  src: url("fonts/ImperialScript-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Pacifico";
+  src: url("fonts/Pacifico-Regular.ttf");
+}
+
+.navbar {
+  font-family: "Sriracha", sans-serif;
+}
+
+footer {
+  z-index: 0;
+}
+
+#tsparticles {
+  z-index: -1;
+}

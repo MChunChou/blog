@@ -1,0 +1,56 @@
+.features {
+    position: relative;   
+    height: calc(100vh - var(--ifm-navbar-height));    
+}
+
+.container {
+  display: flex;
+  height: inherit;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.hello_world {
+  position: absolute;
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: var(--code-bg-color);
+  cursor: default;  
+}
+
+.hello_world span {
+  font-family: "Pacifico","Sriracha", sans-serif;  
+  transition: .1s;
+  text-shadow: 0 0 25px var( --code-text-color);  
+}
+
+.hello_world span {
+  opacity: 0;
+  animation: fadeUp 1.5s forwards;
+  /* 保持在動畫最後狀態 */
+  /* animation-fill-mode: forwards;  */
+
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.photo {
+  width:35%
+}
+
+.intro {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro__text {
+  font-size: 2.5rem;
+  font-family: "Sriracha", sans-serif;
+}

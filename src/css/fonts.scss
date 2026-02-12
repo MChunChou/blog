@@ -1,0 +1,31 @@
+// @mixin font-face($font-name, $category: "") {
+//   $filetpath: "../static/fonts/" + $font-name;
+//   @font-face {
+//     font-family: "#{$font-name}";
+//     font-display: swap;
+//     src: local("#{$font-name}"), url($filetpath + ".woff") format("woff"),
+//       url($filetpath + ".woff2") format("woff2"),
+//       url($filetpath + ".ttf") format("truetype");
+//   }
+//   %#{$font-name} {
+//     font {
+//       @if ($category != "") {
+//         family: "#{$font-name}", #{$category};
+//       } @else {
+//         family: "#{$font-name}";
+//         style: normal;
+//       }
+//     }
+//   }
+// }
+
+// @include font-face("Sriracha");
+
+@font-face {
+  font-family: "Sriracha";
+  src: url("fonts/Sriracha.ttf");
+}
+
+:root {
+  --font-family: "Sriracha", sans-serif;
+}
