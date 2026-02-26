@@ -85,13 +85,13 @@ const config: Config = {
           position: "left",
           label: "Tutorial",
         },
-        { to: "/blog", label: "Blog", position: "left" },
-        { to: "/about", label: "About", position: "left" },
-        {
-          href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
-          position: "right",
-        },
+        // { to: "/blog", label: "Blog", position: "left" },
+        // { to: "/about", label: "About", position: "left" },
+        // {
+        //   href: "https://github.com/facebook/docusaurus",
+        //   label: "GitHub",
+        //   position: "right",
+        // },
       ],
     },
     footer: {
@@ -144,6 +144,8 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  plugins: ["docusaurus-plugin-sass"],
 };
 
 export default config;

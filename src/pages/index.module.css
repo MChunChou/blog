@@ -21,3 +21,9 @@
   align-items: center;
   justify-content: center;
 }
+
+.main {  
+  flex: auto;
+  background: linear-gradient(140deg, #0f172a 0%, #1e293b 45%, #0b1220 100%);
+}
+

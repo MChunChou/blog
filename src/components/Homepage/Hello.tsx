@@ -8,7 +8,7 @@ export default function Hello() {
 
   const [progress, setProgress] = useState(0);
   const vhRef = useRef<number>(
-    typeof window !== "undefined" ? window.innerHeight : 800
+    typeof window !== "undefined" ? window.innerHeight : 800,
   );
   const ticking = useRef(false);
 

@@ -1,14 +1,16 @@
 .features {
     position: relative;   
-    height: calc(100vh - var(--ifm-navbar-height));    
+    /* height: calc(100vh - var(--ifm-navbar-height));     */
 }
 
 .container {
   display: flex;
   height: inherit;
   align-items: center;
-  justify-content: space-between;
-  
+  justify-content: space-between; 
+  margin: 0;
+  padding: 0;
+  max-width: max-content;
 }
 
 .hello_world {
@@ -30,7 +32,6 @@
   animation: fadeUp 1.5s forwards;
   /* 保持在動畫最後狀態 */
   /* animation-fill-mode: forwards;  */
-
 }
 
 @keyframes fadeUp {

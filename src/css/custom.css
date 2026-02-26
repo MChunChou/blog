@@ -38,7 +38,9 @@
   --border-color: #E0E0E0;
   --code-bg-color: #F5F5F5;
   --code-text-color: #263238;
-  --ifm-navbar-link-color: var(--text-color)
+  --ifm-navbar-link-color: var(--text-color);
+
+  --ifm-container-width-xl: max-content;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
